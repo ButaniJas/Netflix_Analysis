@@ -1,6 +1,6 @@
 # Netflix Movies and TV Shows Data Analysis using SQL
 
-![](b2bdf017-826a-4d54-a7ec-a9a9c9057f3e.webp)
+![](https://github.com/ButaniJas/Netflix_Analysis/blob/main/Visuals/Netflix.jpg)
 
 ## Overview
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, visuals and conclusions.
@@ -58,7 +58,7 @@ FROM netflix
 GROUP BY type
 ```
 #### VIsualization:
-![](Visuals\Movies_vs_TVshows.jpg)
+![](https://github.com/ButaniJas/Netflix_Analysis/blob/main/Visuals/Movies_vs_TVshows.jpg)
 
 
 **Objective:** Determine the distribution of content types on Netflix.
@@ -104,7 +104,7 @@ Most_Content DESC
 LIMIT 5 
 ```
 #### VIsualization:
-![](Visuals\Top5MostContentCountries.jpg)
+![](https://github.com/ButaniJas/Netflix_Analysis/blob/main/Visuals/Top5MostContentCountries.jpg)
 
 **Objective:** Identify the top 5 countries with the highest number of content items.
 
@@ -218,7 +218,7 @@ ORDER BY
     year DESC, rank
 ```
 #### VIsualization:
-![](Visuals\TendingContent.jpg)
+![](https://github.com/ButaniJas/Netflix_Analysis/blob/main/Visuals/TendingContent.jpg)
 
 **Objective:** Identify the top 3 most frequently added genres on Netflix each year to analyze content trends and audience preferences.
 
@@ -235,7 +235,7 @@ ORDER BY total_releases DESC
 ```
 
 #### VIsualization:
-![](Visuals\Busiest_Months_Netfilx.jpg)
+![](https://github.com/ButaniJas/Netflix_Analysis/blob/main/Visuals/Busiest_Months_Netfilx.jpg)
 
 **Objective:** Identify the months when Netflix added the most content to reveal peak content release periods.
 
